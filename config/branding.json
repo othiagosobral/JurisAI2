@@ -1,0 +1,35 @@
+{
+  "appName": "JurisAI",
+  "tagline": "Assistente Jurídico Inteligente",
+  "logo": "/logo.svg",
+  "favicon": "/favicon.ico",
+  "colors": {
+    "light": {
+      "primary": "#1e40af",
+      "secondary": "#64748b",
+      "accent": "#f59e0b",
+      "background": "#ffffff",
+      "surface": "#f8fafc",
+      "text": "#1e293b",
+      "textSecondary": "#64748b"
+    },
+    "dark": {
+      "primary": "#3b82f6",
+      "secondary": "#94a3b8",
+      "accent": "#fbbf24",
+      "background": "#0f172a",
+      "surface": "#1e293b",
+      "text": "#f1f5f9",
+      "textSecondary": "#94a3b8"
+    }
+  },
+  "fonts": {
+    "primary": "Inter",
+    "secondary": "system-ui"
+  },
+  "contact": {
+    "email": "contato@jurisai.com.br",
+    "phone": "+55 11 99999-9999",
+    "website": "https://jurisai.com.br"
+  }
+}

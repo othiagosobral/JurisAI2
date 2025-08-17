@@ -1,0 +1,36 @@
+{
+  "name": "jurisai2",
+  "version": "1.0.0",
+  "description": "White-label AI-powered legal assistant for Brazilian attorneys",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 53777",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "server": "cd backend && python app.py",
+    "dev:full": "concurrently \"npm run dev\" \"npm run server\"",
+    "setup": "./start.sh"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "typescript": "^4.9.4",
+    "vite": "^4.1.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "tailwindcss": "^3.2.6",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "lucide-react": "^0.312.0",
+    "react-dropzone": "^14.2.3",
+    "react-markdown": "^8.0.5",
+    "recharts": "^2.5.0",
+    "react-flow-renderer": "^10.3.17",
+    "concurrently": "^7.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.2"
+  }
+}

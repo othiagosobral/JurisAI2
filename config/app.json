@@ -1,0 +1,72 @@
+{
+  "api": {
+    "baseUrl": "http://localhost:5000",
+    "timeout": 30000
+  },
+  "features": {
+    "documentAnalysis": true,
+    "caseSearch": true,
+    "contractAnalysis": true,
+    "jurisprudenceSearch": true,
+    "mindMap": true
+  },
+  "courts": [
+    {
+      "id": "tjsp",
+      "name": "Tribunal de Justiça de São Paulo",
+      "url": "https://esaj.tjsp.jus.br",
+      "type": "estadual"
+    },
+    {
+      "id": "stj",
+      "name": "Superior Tribunal de Justiça",
+      "url": "https://www.stj.jus.br",
+      "type": "superior"
+    },
+    {
+      "id": "trf1",
+      "name": "Tribunal Regional Federal da 1ª Região",
+      "url": "https://www.trf1.jus.br",
+      "type": "federal"
+    },
+    {
+      "id": "trf2",
+      "name": "Tribunal Regional Federal da 2ª Região",
+      "url": "https://www.trf2.jus.br",
+      "type": "federal"
+    },
+    {
+      "id": "trf3",
+      "name": "Tribunal Regional Federal da 3ª Região",
+      "url": "https://www.trf3.jus.br",
+      "type": "federal"
+    },
+    {
+      "id": "trf4",
+      "name": "Tribunal Regional Federal da 4ª Região",
+      "url": "https://www.trf4.jus.br",
+      "type": "federal"
+    },
+    {
+      "id": "trf5",
+      "name": "Tribunal Regional Federal da 5ª Região",
+      "url": "https://www.trf5.jus.br",
+      "type": "federal"
+    }
+  ],
+  "fileUpload": {
+    "maxSize": 10485760,
+    "allowedTypes": [".pdf", ".docx", ".doc", ".txt"],
+    "maxFiles": 5
+  },
+  "security": {
+    "enableCSRF": true,
+    "enableCORS": true,
+    "maxRequestSize": 10485760,
+    "rateLimiting": {
+      "enabled": true,
+      "requests": 100,
+      "window": 900000
+    }
+  }
+}
